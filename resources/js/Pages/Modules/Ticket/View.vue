@@ -40,20 +40,20 @@
                 </div>
                 <div class="text-right font-bold text-gray-700 col-span-2">{{ upwardTicket[0]['destination'] }}</div>
             </div>
-            <div class="grid grid-rows-2 grid-cols-6  mt-2 border-t">
+            <div class="grid grid-rows-2 grid-cols-6  mt-1 border-t">
                 <div class="row-span-2 col-span-2 m-1 border-r">
                     <div class="flex items-center row-span-2 h-full">
                         <div class="mx-auto text-3xl font-bold text-gray-700">₹{{ upwardTicket[0]['total_price'] }}</div>
                     </div>
                 </div>
-                <div class="grid grid-rows-4 m-3 row-span-2 col-span-4">
+                <div class="grid grid-rows-4 m-2 row-span-2 col-span-4">
                     <div class="text-left text-xs font-bold text-gray-400">Booking Date</div>
                     <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['txn_date'] }}</div>
                     <div class="text-left text-xs font-bold text-gray-400">Expiry Date</div>
                     <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['sl_qr_exp'] }}</div>
                 </div>
             </div>
-            <div class="text-sm text-gray-400 text-center my-2">
+            <div class="text-sm text-gray-400 text-center my-1">
                 QR is valid till the last train on {{ new Date().toLocaleDateString() }}
             </div>
         </div>

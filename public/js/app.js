@@ -24103,13 +24103,13 @@ var _hoisted_1 = {
   "class": "text-center m-1 border bg-white rounded-lg"
 };
 var _hoisted_2 = {
-  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded pt-2"
+  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2 py-0.5 rounded pt-1"
 };
 var _hoisted_3 = {
   "class": "flex justify-center m-1"
 };
 var _hoisted_4 = {
-  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded"
+  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2 py-0.5 rounded"
 };
 var _hoisted_5 = ["onClick"];
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -24381,7 +24381,7 @@ var _hoisted_12 = {
   "class": "text-right font-bold text-gray-700 col-span-2"
 };
 var _hoisted_13 = {
-  "class": "grid grid-rows-2 grid-cols-6 mt-2 border-t"
+  "class": "grid grid-rows-2 grid-cols-6 mt-1 border-t"
 };
 var _hoisted_14 = {
   "class": "row-span-2 col-span-2 m-1 border-r"
@@ -24393,7 +24393,7 @@ var _hoisted_16 = {
   "class": "mx-auto text-3xl font-bold text-gray-700"
 };
 var _hoisted_17 = {
-  "class": "grid grid-rows-4 m-3 row-span-2 col-span-4"
+  "class": "grid grid-rows-4 m-2 row-span-2 col-span-4"
 };
 var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-left text-xs font-bold text-gray-400"
@@ -24408,7 +24408,7 @@ var _hoisted_21 = {
   "class": "text-left font-bold text-gray-700"
 };
 var _hoisted_22 = {
-  "class": "text-sm text-gray-400 text-center my-2"
+  "class": "text-sm text-gray-400 text-center my-1"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_nav_bar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("nav-bar");
@@ -25239,7 +25239,7 @@ var _hoisted_1 = {
   "class": "relative m-1 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-5 divide-x p-3"
+  "class": "grid grid-cols-5 divide-x p-1"
 };
 var _hoisted_3 = {
   "class": "col-span-3"
@@ -25990,7 +25990,7 @@ var _hoisted_1 = {
   "class": "relative m-1 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-5 divide-x p-3"
+  "class": "grid grid-cols-5 divide-x p-1"
 };
 var _hoisted_3 = {
   "class": "col-span-3"

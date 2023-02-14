@@ -2,7 +2,7 @@
     <div class="text-center m-1 border bg-white rounded-lg">
         <swiper :modules="modules" navigation="">
             <swiper-slide class="text-center" v-for="({id, qr_data, sl_qr_no}, index) in ticket" :key="id">
-                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded pt-2">Passenger {{ index + 1 }}</span>
+                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2 py-0.5 rounded pt-1">Passenger {{ index + 1 }}</span>
                 <div class="flex justify-center m-1">
                     <QRCodeVue3
                         class="w-2/3"
@@ -13,7 +13,7 @@
                         :backgroundOptions="{ color: '#ffffff' }"
                     />
                 </div>
-                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded">
+                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2 py-0.5 rounded">
                     {{ sl_qr_no }}
                 </span>
                 <button v-on:click="NeedHelp(sl_qr_no)" class="bg-blue-500 text-center p-2 rounded-b-lg text-gray-50 mt-1 w-full">
