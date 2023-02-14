@@ -1,5 +1,5 @@
 <template>
-    <div class="border rounded shadow-sm bg-white mx-2 mb-3">
+    <div class="border rounded shadow-sm bg-white mx-2 mb-1">
         <div class="grid grid-cols-5 m-2 p-2">
             <div class="text-left" v-on:click="onBackButtonPress">
                 <i class="fa-solid fa-chevron-left fa-xl"></i>

@@ -24103,13 +24103,13 @@ var _hoisted_1 = {
   "class": "text-center m-1 border bg-white rounded-lg"
 };
 var _hoisted_2 = {
-  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded pt-2"
+  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded pt-2"
 };
 var _hoisted_3 = {
   "class": "flex justify-center m-1"
 };
 var _hoisted_4 = {
-  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded"
+  "class": "bg-blue-100 text-blue-800 text-xs font-semibold mr-1 px-2.5 py-0.5 rounded"
 };
 var _hoisted_5 = ["onClick"];
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -24156,7 +24156,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               onClick: function onClick($event) {
                 return $options.NeedHelp(sl_qr_no);
               },
-              "class": "bg-blue-500 text-center p-2 rounded-b-lg text-gray-50 mt-2 w-full"
+              "class": "bg-blue-500 text-center p-2 rounded-b-lg text-gray-50 mt-1 w-full"
             }, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" NEED HELP ")], 8 /* PROPS */, _hoisted_5)];
           }),
           _: 2 /* DYNAMIC */
@@ -25812,7 +25812,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "border rounded shadow-sm bg-white mx-2 mb-3"
+  "class": "border rounded shadow-sm bg-white mx-2 mb-1"
 };
 var _hoisted_2 = {
   "class": "grid grid-cols-5 m-2 p-2"
@@ -26026,7 +26026,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "border rounded shadow-sm bg-white mx-2 mb-3"
+  "class": "border rounded shadow-sm bg-white mx-2 mb-1"
 };
 var _hoisted_2 = {
   "class": "grid grid-cols-5 m-2 p-2"
