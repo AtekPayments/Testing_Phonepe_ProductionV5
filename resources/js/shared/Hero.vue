@@ -1,6 +1,6 @@
 <template>
-    <div class="relative m-2 rounded-lg bg-white">
-        <div class="grid grid-cols-5 divide-x p-5">
+    <div class="relative m-1 rounded-lg bg-white">
+        <div class="grid grid-cols-5 divide-x p-3">
             <div class="col-span-3">
                 <img :src="logo" alt="..." />
             </div>

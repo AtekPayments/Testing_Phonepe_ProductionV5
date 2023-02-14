@@ -25236,10 +25236,10 @@ var _withScopeId = function _withScopeId(n) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-7cd50e56"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
 var _hoisted_1 = {
-  "class": "relative m-2 rounded-lg bg-white"
+  "class": "relative m-1 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-5 divide-x p-5"
+  "class": "grid grid-cols-5 divide-x p-3"
 };
 var _hoisted_3 = {
   "class": "col-span-3"
@@ -25987,10 +25987,10 @@ var _withScopeId = function _withScopeId(n) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-8f7b5314"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
 var _hoisted_1 = {
-  "class": "relative m-2 rounded-lg bg-white"
+  "class": "relative m-1 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-5 divide-x p-5"
+  "class": "grid grid-cols-5 divide-x p-3"
 };
 var _hoisted_3 = {
   "class": "col-span-3"

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0880eba6-946d-4a12-b448-b5746d95c02b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/shared/Hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/shared/Hero.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +162,7 @@
       <workItem from="1670146103096" duration="760000" />
       <workItem from="1670221047554" duration="6345000" />
       <workItem from="1670251426661" duration="2809000" />
-      <workItem from="1676359454200" duration="3041000" />
+      <workItem from="1676359454200" duration="3719000" />
     </task>
     <servers />
   </component>
