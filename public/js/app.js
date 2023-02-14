@@ -25239,14 +25239,14 @@ var _hoisted_1 = {
   "class": "relative m-2 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-3 divide-x p-5"
+  "class": "grid grid-cols-5 divide-x p-5"
 };
 var _hoisted_3 = {
-  "class": "col-span-2"
+  "class": "col-span-3"
 };
 var _hoisted_4 = ["src"];
 var _hoisted_5 = {
-  "class": "flex items-end justify-center"
+  "class": "flex items-end col-span-2 justify-center"
 };
 var _hoisted_6 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -25990,14 +25990,14 @@ var _hoisted_1 = {
   "class": "relative m-2 rounded-lg bg-white"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-3 divide-x p-5"
+  "class": "grid grid-cols-5 divide-x p-5"
 };
 var _hoisted_3 = {
-  "class": "col-span-2"
+  "class": "col-span-3"
 };
 var _hoisted_4 = ["src"];
 var _hoisted_5 = {
-  "class": "flex items-end justify-center"
+  "class": "flex items-end col-span-2 justify-center"
 };
 var _hoisted_6 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {

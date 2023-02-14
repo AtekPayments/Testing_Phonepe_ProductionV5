@@ -1,11 +1,11 @@
 <template>
     <div class="relative m-2 rounded-lg bg-white">
-        <div class="grid grid-cols-3 divide-x p-5">
-            <div class="col-span-2">
+        <div class="grid grid-cols-5 divide-x p-5">
+            <div class="col-span-3">
                 <img :src="logo" alt="..." />
             </div>
 
-            <div class="flex items-end justify-center">
+            <div class="flex items-end col-span-2 justify-center">
                 <img :src="ateklogo" alt="..." />
             </div>
         </div>
