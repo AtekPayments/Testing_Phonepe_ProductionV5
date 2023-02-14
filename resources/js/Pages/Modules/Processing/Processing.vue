@@ -50,6 +50,10 @@ export default {
 
         initCreation: async function () {
             let retry = 0;
+            if(retry === 0){
+                await this.sleep(3000)
+            }
+
             while (true) {
                 const res = await axios.get("/processing/init/" + this.order)
                 const data = res.data
