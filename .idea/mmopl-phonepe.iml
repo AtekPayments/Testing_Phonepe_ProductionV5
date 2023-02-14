@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/uri-template" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/inertiajs/inertia-laravel" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
@@ -103,7 +104,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php72" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php81" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-uuid" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/routing" />
@@ -113,6 +113,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/uid" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
