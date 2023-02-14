@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0880eba6-946d-4a12-b448-b5746d95c02b" name="Default Changelist" comment="" />
+    <list default="true" id="0880eba6-946d-4a12-b448-b5746d95c02b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Modules/Ticket/Components/TicketSwiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Modules/Ticket/Components/TicketSwiper.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +94,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
@@ -125,6 +126,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
     </include_path>
   </component>
   <component name="ProjectId" id="2IOUZmtkt1yqim3oBqcZxaEWY7E" />
@@ -159,7 +162,7 @@
       <workItem from="1670146103096" duration="760000" />
       <workItem from="1670221047554" duration="6345000" />
       <workItem from="1670251426661" duration="2809000" />
-      <workItem from="1676359454200" duration="395000" />
+      <workItem from="1676359454200" duration="1224000" />
     </task>
     <servers />
   </component>

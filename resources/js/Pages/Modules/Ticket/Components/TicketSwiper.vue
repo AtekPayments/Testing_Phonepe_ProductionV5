@@ -1,11 +1,11 @@
 <template>
-    <div class="text-center m-2 border bg-white rounded-lg">
+    <div class="text-center m-1 border bg-white rounded-lg">
         <swiper :modules="modules" navigation="">
             <swiper-slide class="text-center" v-for="({id, qr_data, sl_qr_no}, index) in ticket" :key="id">
                 <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded pt-2">Passenger {{ index + 1 }}</span>
                 <div class="flex justify-center m-1">
                     <QRCodeVue3
-                        class="w-1/2"
+                        class="w-2/3"
                         :value="qr_data"
                         :cornersSquareOptions="{ type: 'square' }"
                         :qr-options="{ typeNumber: 0, mode: 'Byte', errorCorrectionLevel: 'L' }"
