@@ -80,6 +80,7 @@
     import TicketSwiper from "./Components/TicketSwiper";
     import NeedHelpModel from "../../../Shared/Model/NeedHelpModel";
     import axios from "axios";
+    import dateFormat from "dateformat";
 
     export default {
 
@@ -140,13 +141,15 @@
             },
 
             getExpDate: function () {
-                const d = new Date();
-                return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()
+                const now = new Date();
+                /*return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()*/
+                return dateFormat(now, "dd-mm-yyyy")
             },
 
             getBookDate: function (date) {
-                const d = new Date(date);
-                return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" + "00";
+                const now = new Date(date);
+                /*return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" + "00";*/
+                return dateFormat(now, "dd-mm-yyyy hh:MM:ss TT")
             }
 
 

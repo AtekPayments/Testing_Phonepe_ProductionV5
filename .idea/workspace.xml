@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0880eba6-946d-4a12-b448-b5746d95c02b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/Pages/Modules/Ticket/View.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Modules/Ticket/View.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +168,7 @@
       <workItem from="1676359454200" duration="9655000" />
       <workItem from="1676645973347" duration="508000" />
       <workItem from="1676651906282" duration="328000" />
-      <workItem from="1676704598393" duration="5321000" />
+      <workItem from="1676704598393" duration="6188000" />
     </task>
     <servers />
   </component>
