@@ -54,7 +54,7 @@ class ApiController extends Controller
                     "name"                      : "' . $user->pax_name . '",
                     "email"                     : "' . $user->pax_email . '",
                     "mobile"                    : "' . $user->pax_mobile . '",
-                    "activationTime"            : "' . $data->insert_date . '",
+                    "activationTime"            : "' .  Carbon::now() . '",
                     "trips"                     : "' . $data->unit . '"
                 },
                 "payment": {

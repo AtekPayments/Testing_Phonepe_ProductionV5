@@ -48,13 +48,13 @@
                 </div>
                 <div class="grid grid-rows-4 m-2 row-span-2 col-span-4">
                     <div class="text-left text-xs font-bold text-gray-400">Booking Date</div>
-                    <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['txn_date'] }}</div>
+                    <div class="text-left font-bold text-gray-700">{{ getBookDate() }}</div>
                     <div class="text-left text-xs font-bold text-gray-400">Expiry Date</div>
                     <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['sl_qr_exp'] }}</div>
                 </div>
             </div>
             <div class="text-sm text-gray-400 text-center my-1">
-                QR is valid till the last train on {{ new Date().toLocaleDateString() }}
+                QR is valid till the last train on {{ getExpDate() }}
             </div>
         </div>
 
@@ -72,13 +72,13 @@
 
 <script>
 
-import NavBar from "../../../Shared/NavBar";
-import Hero from "../../../Shared/Hero";
-import TicketSwiper from "./Components/TicketSwiper";
-import NeedHelpModel from "../../../Shared/Model/NeedHelpModel";
-import axios from "axios";
+    import NavBar from "../../../Shared/NavBar";
+    import Hero from "../../../Shared/Hero";
+    import TicketSwiper from "./Components/TicketSwiper";
+    import NeedHelpModel from "../../../Shared/Model/NeedHelpModel";
+    import axios from "axios";
 
-export default {
+    export default {
 
     props: {
         type: Number,
@@ -101,11 +101,13 @@ export default {
         return {
             showSingle: true,
             slQrNo: '',
-            isNeedHelpEnabled: false
+            isNeedHelpEnabled: false,
+            datestring : ''
         }
     },
 
     methods: {
+
         showUpwardTicket: function () {
             this.showSingle = true
         },
@@ -134,13 +136,24 @@ export default {
             }
         },
 
+        getExpDate: function () {
+            const d = new Date();
+            return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()
+        },
+
+        getBookDate: function (upwardTicket) {
+            var d = new Date(upwardTicket[0]['txn_date'])
+            return newDate = d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" +"00";
+
+        }
+
+
     },
 
     mounted() {
-
         this.ticketStatus();
-
     }
+
 }
 
 </script>
