@@ -51,9 +51,9 @@
                 </div>
                 <div class="grid grid-rows-4 m-2 row-span-2 col-span-4">
                     <div class="text-left text-xs font-bold text-gray-400">Booking Date</div>
-                    <div class="text-left font-bold text-gray-700">{{ getBookDate(upwardTicket[0]['txn_date']) }}</div>
+                    <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['txn_date'] }}</div>
                     <div class="text-left text-xs font-bold text-gray-400">Expiry Date</div>
-                    <div class="text-left font-bold text-gray-700">{{ getBookDate(upwardTicket[0]['sl_qr_exp']) }}</div>
+                    <div class="text-left font-bold text-gray-700">{{ upwardTicket[0]['sl_qr_exp'] }}</div>
                 </div>
             </div>
             <div class="text-sm text-gray-400 text-center my-1">
@@ -80,7 +80,6 @@
     import TicketSwiper from "./Components/TicketSwiper";
     import NeedHelpModel from "../../../Shared/Model/NeedHelpModel";
     import axios from "axios";
-    import dateFormat from "dateformat";
 
     export default {
 
@@ -141,16 +140,12 @@
             },
 
             getExpDate: function () {
-                const now = new Date();
-                /*return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()*/
-                return dateFormat(now, "dd-mm-yyyy")
+                const d = new Date();
+                return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()
+
             },
 
-            getBookDate: function (date) {
-                const now = new Date(date);
-                /*return d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" + "00";*/
-                return dateFormat(now, "dd-mm-yyyy hh:MM:ss TT")
-            }
+
 
 
         },
